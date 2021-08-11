@@ -1,0 +1,41 @@
+Arguments: 
+  /Users/daniilshushpanov/.nvm/versions/node/v14.15.4/bin/node /Users/daniilshushpanov/.nvm/versions/node/v14.15.4/bin/yarn add puppitier
+
+PATH: 
+  /Users/daniilshushpanov/Library/Android/sdk/tools:/Users/daniilshushpanov/Library/Android/sdk/platform-tools:/Users/daniilshushpanov/.nvm/versions/node/v14.15.4/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/daniilshushpanov/Library/Android/sdk/tools:/Users/daniilshushpanov/Library/Android/sdk/platform-tools:/Users/daniilshushpanov/.nvm/versions/node/v14.15.4/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.4
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/puppitier: Not found
+      at Request.params.callback [as _callback] (/Users/daniilshushpanov/.nvm/versions/node/v14.15.4/lib/node_modules/yarn/lib/cli.js:66988:18)
+      at Request.self.callback (/Users/daniilshushpanov/.nvm/versions/node/v14.15.4/lib/node_modules/yarn/lib/cli.js:140662:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (/Users/daniilshushpanov/.nvm/versions/node/v14.15.4/lib/node_modules/yarn/lib/cli.js:141634:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (/Users/daniilshushpanov/.nvm/versions/node/v14.15.4/lib/node_modules/yarn/lib/cli.js:141556:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (internal/streams/readable.js:1327:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "foodology",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
